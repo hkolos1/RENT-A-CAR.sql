@@ -49,8 +49,8 @@ WHERE k.ime LIKE 'A%';
 #7 /*opisi automobila koji su ispravni*/
 SELECT opis_automobila
 FROM tip_automobila tip
-WHERE tip.ID_tip_automobila IN(
-								SELECT ID_tip_automobila
+WHERE tip.ID_automobila IN(
+								SELECT ID_automobila
 								FROM automobili a
                                 WHERE a.deskripcija_automobila='Ispravan');
 
