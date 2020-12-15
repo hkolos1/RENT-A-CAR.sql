@@ -1,6 +1,7 @@
 CREATE VIEW svi_kontakti AS
 SELECT p.ID_poslovnice, br.*
 FROM poslovnice AS p INNER JOIN brojevi_tel AS br;
+ON br.glavni_broj_tel = p.glavni_broj_tel;
 
 SELECT * FROM svi_kontakti;
 
