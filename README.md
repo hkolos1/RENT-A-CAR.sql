@@ -1,5 +1,7 @@
-# UBP Projektna baza ( RENT A CAR )
-Harun Kološ 
-Adi Kereš
-Alma Kasumović
-Samir Kajanija
+# RENT A CAR 
+## UVOD U BAZE PODATAKA PROJEKTNI ZADATAK
+### TIM:
+-Harun Kološ 
+-Adi Kereš
+-Alma Kasumović
+
